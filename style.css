@@ -1,0 +1,98 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box ;
+font-family: "monospace" , Times New Roman, sans-serif, monospace;
+}
+
+html{
+ background: url("https://static.vecteezy.com/system/resources/previews/003/503/120/large_2x/abstract-purple-trendy-background-cool-background-design-for-posters-vector.jpg") no-repeat center center fixed;
+ background-size: cover;
+ }
+
+span{
+	animation : blinker 2s linear infinite;
+}
+
+@keyframes blinker{
+  50%{
+  opacity : 0
+    }
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+	font-family: "Roboto";
+	text-shadow: 2px 2px #ff0000;
+	text-decoration: underline;
+
+}
+
+
+h1{
+ color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 15%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+h2{
+color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 5px;
+}
+
+h3{
+color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 45%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 5px;
+}
+
+h4{
+color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 60%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 5px;
+}
+
+h5{
+color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 75%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 5px;
+}
+
+h6{
+color: #fff;
+ text-transform: capitalize;
+ position: absolute;
+ top: 90%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin-top: 5px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width : 768px) {
+	h1,h2,h3,h4,h5,h6{
+		font-size : 1rem;
+	}
+
+}
